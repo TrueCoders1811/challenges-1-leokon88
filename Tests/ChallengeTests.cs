@@ -39,11 +39,11 @@ namespace CodingChallenges1.Tests
         [InlineData(-10, -7, -3)]
         [InlineData(-10, -15, 5)]
         [InlineData(5.5, 1.2, 4.3)]
-        [InlineData(0.7, 0.35, 0.45)]
-        [InlineData(-2.2, 1.1, -3.3)]
+        [InlineData(0.70, 0.35, 0.35)]
+        [InlineData(-2.2, 1.0, -3.2)]
         public void Subtract(double minuend, double subtrahend, double expectedDifference)
         {
-            // Arrange
+            // Arrange - by setting a new instance
             Challenges challenger = new Challenges();
 
             // Act

@@ -36,14 +36,14 @@ namespace CodingChallenges1
         public string GetGreeting(string nameOfPerson)
         {
             if (nameOfPerson == "")
-            { return nameOfPerson + "," + " Hello!"; }
+            { return nameOfPerson + ", Hello!"; }
             else
-            { return "Hello, " + nameOfPerson + " !"; }
+            { return "Hello " + nameOfPerson + " !"; }
         }
 
         public string GetHey()
         {
-            return "Hey!";
+            return "HEY!";
         }
     }
 }
