@@ -35,11 +35,16 @@ namespace CodingChallenges1
 
         public string GetGreeting(string nameOfPerson)
         {
+            //[InlineData("John", "Hello, John!")]
+            // [InlineData("Leigh Ann", "Hello, Leigh Ann!")]
+            //[InlineData("", "Hello!")]
+
             if (nameOfPerson == "")
-            { return nameOfPerson + ", Hello!"; }
+            { return ("Hello!"); }
             else
-            { return "Hello " + nameOfPerson + " !"; }
-        }
+            { return ($"Hello, {nameOfPerson}!");
+            }
+    }
 
         public string GetHey()
         {
